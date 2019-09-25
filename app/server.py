@@ -10,8 +10,8 @@ from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
 #export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
-export_file_url = 'https://www.googleapis.com/drive/v3/files/1rDde08b4oEPGilPyKDXYhEGFGZTdo71I?alt=media&key=AIzaSyCmR2vwmUMJLp06gd10-F3A1b8sjm7ODjM'
-export_file_name = 'painDetectorModelLatest_finetuning_demo.pth'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1TKLl1ljHe9Y7DGg0qWk95m_ZMSPOKUsq'
+export_file_name = 'export.pkl'
 
 classes = ['NoPain', 'Pain']
 path = Path(__file__).parent
